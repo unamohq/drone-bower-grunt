@@ -4,4 +4,4 @@ FROM node:7.7.3-alpine
 # Installing Git, Bower and Grunt.
 RUN apk update && \
     apk add --no-cache git && \
-    npm install -g bower grunt grunt-cli phantomjs
+    npm install -g git bower grunt grunt-cli phantomjs
