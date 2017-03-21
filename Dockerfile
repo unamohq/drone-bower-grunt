@@ -6,3 +6,6 @@ RUN apt-get update && \
     apt-get install git-core -f
 # Installing Bower and Grunt.
 RUN npm install -g git bower grunt grunt-cli
+
+RUN echo $PATH`
+RUN which git
