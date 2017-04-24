@@ -2,4 +2,4 @@
 
 Drone image with Bower and Grunt inside.
 
-Package is also prepared to handle Webdrivers for testing: PhantomJS and SlimerJS.
+Package is also prepared to handle Webdrivers for testing: PhantomJS and SlimerJS (Iceweasel added).
