@@ -1,14 +1,9 @@
-# Pull node as a base image.
-FROM node:7.7.3
+FROM node:9.0.0
 
-# Updating packages
 RUN apt-get -y update
 
-# Installing Iceweasel (Firefox) for testing
 RUN apt-get install -y iceweasel
 
-# Installing Git and Java 8.
-RUN apt-get install git-core default-jdk -y
+RUN apt-get install -y git-core default-jdk
 
-# Installing Bower and Grunt.
-RUN npm install -g git bower grunt grunt-cli
+RUN yarn install -g bower grunt grunt-cli
