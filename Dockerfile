@@ -1,4 +1,4 @@
-FROM node:9.0.0-alpine
+FROM node:9.0.0
 
 RUN apt-get -y update
 
